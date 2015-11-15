@@ -11,4 +11,5 @@
 
 "series" = ["trusty"]
 
-[fields]
+# No recommended fields
+# [fields]
