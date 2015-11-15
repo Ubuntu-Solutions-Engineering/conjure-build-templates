@@ -1,0 +1,14 @@
+# -*- mode:toml; -*-
+
+"charm"                  = "hadoop"
+"allowed_fields"         = ["pig",
+                            "tasktracker_http_threads",
+                            "mapreduce_reduce_shuffle_parallelcopies",
+                            "source",
+                            "hadoop_dir_base",
+                            "mapred_child_java_opts",
+                            "heap"]
+
+"series" = ["trusty"]
+
+[fields]
