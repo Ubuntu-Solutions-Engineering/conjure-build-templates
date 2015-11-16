@@ -21,5 +21,5 @@ Package: hadoop
 Architecture: all
 Depends: python3-urwid, ${misc:Depends}, ${python3:Depends}, ${python:Depends}
 Description: Software platform for processing vast amounts of data
- Hadoop is a software platform that lets one easily write and
-run applications that process vast amounts of data.
+ Hadoop is a software platform that lets one easily write and run applications
+ that process vast amounts of data.

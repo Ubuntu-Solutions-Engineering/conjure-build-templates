@@ -21,4 +21,4 @@ Package: {{Name}}
 Architecture: all
 Depends: python3-urwid, ${misc:Depends}, ${python3:Depends}, ${python:Depends}
 Description: {{Summary}}
- {{Description}}
+{{Description}}
