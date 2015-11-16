@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = configure]; then
+   /usr/share/conjure/hadoop/conjure-setup -c /usr/share/conjure/hadoop/conjurebuild.toml
+fi
+
+#DEBHELPER#
+
+exit 0
