@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = configure]; then
+   /usr/share/conjure/dokuwiki/conjure-setup -c /usr/share/conjure/dokuwiki/conjurebuild.toml
+fi
+
+#DEBHELPER#
+
+exit 0

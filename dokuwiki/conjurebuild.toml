@@ -1,0 +1,12 @@
+# -*- mode:toml; -*-
+
+"name"           = "dokuwiki"
+"version"        = "0.0.1"
+"maintainer"     = "Adam Stokes <adam.stokes@ubuntu.com>"
+"allowed_fields" = ["admin_user",
+                    "admin_name",
+                    "admin_email"]
+"series"         = ["trusty"]
+
+# No recommended fields
+# [fields]
