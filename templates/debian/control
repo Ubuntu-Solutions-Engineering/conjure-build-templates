@@ -1,4 +1,4 @@
-Source: {{Name}}
+Source: {{name}}
 Section: admin
 Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -17,8 +17,8 @@ X-Python3-Version: >= 3.3
 Vcs-Browser: https://github.com/Ubuntu-Solutions-Engineering/conjure
 Vcs-Git: https://github.com/Ubuntu-Solutions-Engineering/conjure.git
 
-Package: {{Name}}
+Package: {{name}}
 Architecture: all
 Depends: python3-urwid, ${misc:Depends}, ${python3:Depends}, ${python:Depends}
-Description: {{Summary}}
-{{Description}}
+Description: {{summary}}
+{{description}}

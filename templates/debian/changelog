@@ -1,6 +1,6 @@
-{{Name}} ({{Version}}) {{Series}}; urgency=medium
-{% for c in Changelog %}
+{{name}} ({{version}}) {{series}}; urgency=medium
+{% for c in changelog %}
   * {{c}}
 {%- endfor %}
 
- -- {{Maintainer}}  {{Timestamp}}
+ -- {{maintainer}}  {{timestamp}}
