@@ -1,12 +1,7 @@
-# -*- mode:toml; -*-
-
-"name"           = "dokuwiki"
-"version"        = "0.0.1"
-"maintainer"     = "Adam Stokes <adam.stokes@ubuntu.com>"
-"allowed_fields" = ["admin_user",
-                    "admin_name",
-                    "admin_email"]
-"series"         = ["trusty"]
-
-# No recommended fields
-# [fields]
+name = "dokuwiki"
+version = "0.0.1"
+changelog = [ "Automatic conjure build",]
+summary = "Software platform for processing vast amounts of data"
+maintainer = "Adam Stokes <adam.stokes@ubuntu.com>"
+series = "trusty"
+timestamp = "Wed, 02 Dec 2015 07:04:07 -0500"
