@@ -3,7 +3,7 @@
 set -e
 
 if [ "$1" = configure]; then
-   /usr/share/conjure/{{name}}/conjure-setup -c /usr/share/conjure/{{name}}/conjurebuild.toml
+   /usr/share/conjure/{{name}}/{{name}}-setup -c /usr/share/conjure/{{name}}/conjurebuild.toml
 fi
 
 #DEBHELPER#
