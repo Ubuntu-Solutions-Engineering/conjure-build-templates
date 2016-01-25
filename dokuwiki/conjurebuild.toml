@@ -1,7 +1,0 @@
-name = "dokuwiki"
-version = "0.0.1"
-changelog = [ "Automatic conjure build",]
-summary = "Software platform for processing vast amounts of data"
-maintainer = "Adam Stokes <adam.stokes@ubuntu.com>"
-series = "trusty"
-timestamp = "Wed, 02 Dec 2015 07:04:07 -0500"

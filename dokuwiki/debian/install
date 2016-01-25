@@ -1,3 +1,0 @@
-{%- for src, dst in InstallPaths %}
-{{src}} {{dst}}
-{%- endfor %}
