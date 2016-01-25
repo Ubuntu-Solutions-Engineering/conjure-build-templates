@@ -29,7 +29,5 @@
         "kibana",
         "elasticsearch"
     ],
-    "bin": {
-        "bigdata-install": "bigdata-install"
-    }
+    "bin": "bigdata-install"
 }
